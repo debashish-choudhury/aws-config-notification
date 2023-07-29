@@ -1,4 +1,4 @@
-# aws-config-notification
+# AWS Config Notification
 
 
 ## Description
