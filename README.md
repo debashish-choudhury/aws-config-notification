@@ -62,13 +62,6 @@ terraform {
 
 **Important:** The Partition Key should be `LockID` or else the state lock will **not work** as expected.
 
-```
-HOST = 5000 // or enter your own port
-PASSWD = // Enter the password of your organizations gmail account.
-DBPASS = // Enter your mongodb user password
-```
-PASSWD is required for password reset. A mail will be sent to user for password reset link. This mail will be sent by the Organization's email id, hence password is required.
-
 **Important:** If you want to change the resource monitoring based on your requirements, please look at the below link which shows how we can modify the resource block `aws_config_configuration_recorder` config present in `main.tf` :
 (https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_recorder.html#recording_group)
 
